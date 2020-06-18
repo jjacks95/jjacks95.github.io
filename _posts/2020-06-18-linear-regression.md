@@ -1,8 +1,15 @@
 ---
 layout: post
+mathjax: true
 title: Logistic Regression
 ---
 # Logistic Regression
+
+Linear regressions are models of the form:
+
+$$y = \beta_0 + \beta_1 x1 + \beta_2 x2 + ... + \epsilon$$
+
+where, $x_n1,..., x_n$ are my different features.
 
 ## How to deploy Logistic Regression model with sklearn
 
