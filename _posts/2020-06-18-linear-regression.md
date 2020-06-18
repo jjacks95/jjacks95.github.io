@@ -17,19 +17,13 @@ To employ this model in sklearn, I need to first import it
 ```python
 from sklearn.linear_model import LogisticRegression
 ```
-
-and then call the fit and predict methods:
-
+and then we initialize and fit the data:
 
 ```python
 model = LogisticRegression()
-```
-
-
-```python
 model.fit(X_train, y_train)
 ```
-
+and then predict with the model:
 
 ```python
 y_pred = model.predict(X_test)
