@@ -1,3 +1,7 @@
+---
+layout: post
+title: Logistic Regression
+---
 # Logistic Regression
 
 ## How to deploy Logistic Regression model with sklearn
